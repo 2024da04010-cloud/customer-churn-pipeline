@@ -1,62 +1,40 @@
 import logging
-import sys
 import os
+import sys
 
-# --------------------------
-# Set up Python path
-# --------------------------
-pipeline_dir = os.path.dirname(os.path.realpath(__file__))
-parent_dir = os.path.dirname(pipeline_dir)
+# Import the actual run functions from each module
+from src.ingestion.ingest_data import run as ingest_data_run
+from src.preparation.prepare_data import run as prepare_data_run
+from src.validation.validate_data import run as validate_data_run
+from src.transformation_and_storage.transform_and_store_data import run as transform_and_store_data_run
+from src.model_building.model_building import run as model_building_run
 
-for p in [parent_dir, pipeline_dir]:
-    if p not in sys.path:
-        sys.path.insert(0, p)
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
-# --------------------------
-# Import pipeline modules
-# --------------------------
-try:
-    from src.ingestion import ingest_data
-    from src.preparation import prepare_data
-    from src.validation import validate_data
-    from src.transformation_and_storage import transform_and_store_data
-    from src.model_building import model_building
-    import src.utils.log_config as log_config
-except ModuleNotFoundError as e:
-    logging.error(f"Failed to import pipeline modules: {e}")
-    raise
-
-# --------------------------
-# Pipeline steps
-# --------------------------
+# Define pipeline steps as (step_name, function)
 STEPS = [
-    ("INGESTION", ingest_data),
-    ("VALIDATION", validate_data),
-    ("PREPARATION", prepare_data),
-    ("TRANSFORMATION_AND_STORAGE", transform_and_store_data),
-    ("MODEL_BUILDING", model_building)
+    ("INGESTION", ingest_data_run),
+    ("VALIDATION", validate_data_run),
+    ("PREPARATION", prepare_data_run),
+    ("TRANSFORMATION_AND_STORAGE", transform_and_store_data_run),
+    ("MODEL_BUILDING", model_building_run)
 ]
 
-# --------------------------
-# Run each step
-# --------------------------
-def run_step(func, name):
+def run_step(func, step_name):
+    logger.info(f"🔹 Starting step: {step_name}")
     try:
-        logging.info(f"🚀 Running step: {name}")
         func()
-        logging.info(f"✅ Step {name} completed successfully")
+        logger.info(f"✅ Completed step: {step_name}")
     except Exception as e:
-        logging.error(f"❌ Step {name} failed: {e}")
+        logger.error(f"❌ Error in step {step_name}: {e}", exc_info=True)
         raise
 
-# --------------------------
-# Main pipeline orchestrator
-# --------------------------
 def main():
-    logging.info('---------------------------- INITIATING PIPELINE ----------------------------')
+    logger.info("🚀 Starting Customer Churn Pipeline Orchestration")
     for step_name, func in STEPS:
         run_step(func, step_name)
-    logging.info('-------------------------- PIPELINE RUN SUCCESSFUL --------------------------')
+    logger.info("🎉 Pipeline execution completed successfully")
 
 if __name__ == "__main__":
     main()
