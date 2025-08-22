@@ -7,7 +7,7 @@ scikit-learn==1.3.2
 xgboost==1.7.6
 
 # Visualization
-matplotlib==3.7.2
+matplotlib==3.7.3
 seaborn==0.12.2
 
 # Optional: lightweight dependency for parsing / utilities
