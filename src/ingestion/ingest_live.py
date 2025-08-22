@@ -6,12 +6,18 @@ import logging
 from datetime import datetime
 import src.utils.log_config as log_config
 
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../"))
+DATA_PATH = os.path.join(BASE_DIR, "data/Telco-Customer-Churn.csv")
+
+def get_static_df():
+    return pd.read_csv(DATA_PATH)
+
 try:
-    STATIC_DATA_PATH = "data/Telco-Customer-Churn.csv"
-    static_df = pd.read_csv(STATIC_DATA_PATH)
+    static_df = get_static_df()
+    logging.info("[INGESTION] Static data loaded successfully.")
 except Exception as e:
-    logging.error(f"[INGESTION] Live ingestion failed: {e}", exc_info=False)
-    print(f"Error during live ingestion: {e}")
+    logging.error(f"[INGESTION] Live ingestion failed: {e}", exc_info=True)
+    raise  # re-raise so Airflow marks task as failed properly
 
 categorical_cols = static_df.select_dtypes(include=['object']).columns.tolist()
 numerical_cols = static_df.select_dtypes(include=['int64', 'float64']).columns.tolist()
