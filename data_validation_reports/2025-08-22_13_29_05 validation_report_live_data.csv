@@ -1,0 +1,65 @@
+Check,Status,Details
+Type - customerID,Pass,customerID type object is correct
+Type - gender,Pass,gender type object is correct
+Type - SeniorCitizen,Pass,SeniorCitizen type int64 is correct
+Type - Partner,Pass,Partner type object is correct
+Type - Dependents,Pass,Dependents type object is correct
+Type - tenure,Pass,tenure type int64 is correct
+Type - PhoneService,Pass,PhoneService type object is correct
+Type - MultipleLines,Pass,MultipleLines type object is correct
+Type - InternetService,Pass,InternetService type object is correct
+Type - OnlineSecurity,Pass,OnlineSecurity type object is correct
+Type - OnlineBackup,Pass,OnlineBackup type object is correct
+Type - DeviceProtection,Pass,DeviceProtection type object is correct
+Type - TechSupport,Pass,TechSupport type object is correct
+Type - StreamingTV,Pass,StreamingTV type object is correct
+Type - StreamingMovies,Pass,StreamingMovies type object is correct
+Type - Contract,Pass,Contract type object is correct
+Type - PaperlessBilling,Pass,PaperlessBilling type object is correct
+Type - PaymentMethod,Pass,PaymentMethod type object is correct
+Type - MonthlyCharges,Pass,MonthlyCharges type float64 is correct
+Type - TotalCharges,Pass,TotalCharges type float64 is correct
+Type - Churn,Pass,Churn type object is correct
+Missing - customerID,Pass,No missing values
+Missing - gender,Pass,No missing values
+Missing - SeniorCitizen,Pass,No missing values
+Missing - Partner,Pass,No missing values
+Missing - Dependents,Pass,No missing values
+Missing - tenure,Pass,No missing values
+Missing - PhoneService,Pass,No missing values
+Missing - MultipleLines,Pass,No missing values
+Missing - InternetService,Pass,No missing values
+Missing - OnlineSecurity,Pass,No missing values
+Missing - OnlineBackup,Pass,No missing values
+Missing - DeviceProtection,Pass,No missing values
+Missing - TechSupport,Pass,No missing values
+Missing - StreamingTV,Pass,No missing values
+Missing - StreamingMovies,Pass,No missing values
+Missing - Contract,Pass,No missing values
+Missing - PaperlessBilling,Pass,No missing values
+Missing - PaymentMethod,Pass,No missing values
+Missing - MonthlyCharges,Pass,No missing values
+Missing - TotalCharges,Pass,No missing values
+Missing - Churn,Pass,No missing values
+Integrity - Null ID,Pass,No null customerIDs
+Integrity - Duplicates,Pass,No duplicate customerIDs
+Range - tenure,Pass,All values within 0-100
+Range - MonthlyCharges,Pass,All values within 0-1000
+Range - TotalCharges,Pass,All values within 0-100000
+Domain - gender,Pass,All values valid
+Domain - SeniorCitizen,Pass,All values valid
+Domain - Partner,Pass,All values valid
+Domain - Dependents,Pass,All values valid
+Domain - PhoneService,Pass,All values valid
+Domain - MultipleLines,Pass,All values valid
+Domain - InternetService,Pass,All values valid
+Domain - OnlineSecurity,Pass,All values valid
+Domain - OnlineBackup,Pass,All values valid
+Domain - DeviceProtection,Pass,All values valid
+Domain - TechSupport,Pass,All values valid
+Domain - StreamingTV,Pass,All values valid
+Domain - StreamingMovies,Pass,All values valid
+Domain - Contract,Pass,All values valid
+Domain - PaperlessBilling,Pass,All values valid
+Domain - PaymentMethod,Pass,All values valid
+Domain - Churn,Pass,All values valid

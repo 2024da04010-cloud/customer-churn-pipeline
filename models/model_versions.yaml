@@ -1,0 +1,389 @@
+models:
+  LogisticRegression:
+  - v1:
+      file: models/LogisticRegression.pkl
+      metrics:
+        accuracy: 0.81
+        f1: 0.61
+        precision: 0.62
+        recall: 0.6
+      timestamp: '2025-08-17 21:21:34'
+  - v2:
+      file: models/LogisticRegression.pkl
+      metrics:
+        accuracy: 0.81
+        f1: 0.61
+        precision: 0.62
+        recall: 0.61
+      timestamp: '2025-08-22 13:35:20'
+  - v3:
+      file: models/LogisticRegression.pkl
+      metrics:
+        accuracy: 0.81
+        f1: 0.61
+        precision: 0.62
+        recall: 0.61
+      timestamp: '2025-08-22 13:37:23'
+  - v4:
+      file: models/LogisticRegression.pkl
+      metrics:
+        accuracy: 0.81
+        f1: 0.61
+        precision: 0.62
+        recall: 0.61
+      timestamp: '2025-08-22 13:38:40'
+  - v5:
+      file: models/LogisticRegression.pkl
+      metrics:
+        accuracy: 0.81
+        f1: 0.61
+        precision: 0.62
+        recall: 0.61
+      timestamp: '2025-08-22 13:41:37'
+  - v6:
+      file: models/LogisticRegression.pkl
+      metrics:
+        accuracy: 0.81
+        f1: 0.61
+        precision: 0.62
+        recall: 0.61
+      timestamp: '2025-08-22 13:42:00'
+  - v7:
+      file: models/LogisticRegression.pkl
+      metrics:
+        accuracy: 0.81
+        f1: 0.61
+        precision: 0.62
+        recall: 0.61
+      timestamp: '2025-08-22 13:45:41'
+  - v8:
+      file: models/LogisticRegression.pkl
+      metrics:
+        accuracy: 0.81
+        f1: 0.61
+        precision: 0.62
+        recall: 0.61
+      timestamp: '2025-08-22 14:17:57'
+  - v9:
+      file: models/LogisticRegression.pkl
+      metrics:
+        accuracy: 0.81
+        f1: 0.61
+        precision: 0.62
+        recall: 0.61
+      timestamp: '2025-08-22 14:20:10'
+  - v10:
+      file: models/LogisticRegression.pkl
+      metrics:
+        accuracy: 0.81
+        f1: 0.61
+        precision: 0.62
+        recall: 0.61
+      timestamp: '2025-08-22 14:22:35'
+  - v11:
+      file: models/LogisticRegression.pkl
+      metrics:
+        accuracy: 0.81
+        f1: 0.61
+        precision: 0.62
+        recall: 0.61
+      timestamp: '2025-08-22 14:25:07'
+  - v12:
+      file: models/LogisticRegression.pkl
+      metrics:
+        accuracy: 0.81
+        f1: 0.61
+        precision: 0.62
+        recall: 0.61
+      timestamp: '2025-08-22 14:31:25'
+  RandomForest:
+  - v1:
+      file: models/RandomForest.pkl
+      metrics:
+        accuracy: 0.8
+        f1: 0.57
+        precision: 0.63
+        recall: 0.53
+      timestamp: '2025-08-17 21:21:34'
+  - v2:
+      file: models/RandomForest.pkl
+      metrics:
+        accuracy: 0.8
+        f1: 0.57
+        precision: 0.63
+        recall: 0.53
+      timestamp: '2025-08-22 13:35:21'
+  - v3:
+      file: models/RandomForest.pkl
+      metrics:
+        accuracy: 0.8
+        f1: 0.57
+        precision: 0.63
+        recall: 0.53
+      timestamp: '2025-08-22 13:37:24'
+  - v4:
+      file: models/RandomForest.pkl
+      metrics:
+        accuracy: 0.8
+        f1: 0.57
+        precision: 0.63
+        recall: 0.53
+      timestamp: '2025-08-22 13:38:41'
+  - v5:
+      file: models/RandomForest.pkl
+      metrics:
+        accuracy: 0.8
+        f1: 0.57
+        precision: 0.63
+        recall: 0.53
+      timestamp: '2025-08-22 13:41:37'
+  - v6:
+      file: models/RandomForest.pkl
+      metrics:
+        accuracy: 0.8
+        f1: 0.57
+        precision: 0.63
+        recall: 0.53
+      timestamp: '2025-08-22 13:42:01'
+  - v7:
+      file: models/RandomForest.pkl
+      metrics:
+        accuracy: 0.8
+        f1: 0.57
+        precision: 0.63
+        recall: 0.53
+      timestamp: '2025-08-22 13:45:42'
+  - v8:
+      file: models/RandomForest.pkl
+      metrics:
+        accuracy: 0.8
+        f1: 0.57
+        precision: 0.63
+        recall: 0.53
+      timestamp: '2025-08-22 14:17:58'
+  - v9:
+      file: models/RandomForest.pkl
+      metrics:
+        accuracy: 0.8
+        f1: 0.57
+        precision: 0.63
+        recall: 0.53
+      timestamp: '2025-08-22 14:20:11'
+  - v10:
+      file: models/RandomForest.pkl
+      metrics:
+        accuracy: 0.8
+        f1: 0.57
+        precision: 0.63
+        recall: 0.53
+      timestamp: '2025-08-22 14:22:36'
+  - v11:
+      file: models/RandomForest.pkl
+      metrics:
+        accuracy: 0.8
+        f1: 0.57
+        precision: 0.63
+        recall: 0.53
+      timestamp: '2025-08-22 14:25:08'
+  - v12:
+      file: models/RandomForest.pkl
+      metrics:
+        accuracy: 0.8
+        f1: 0.57
+        precision: 0.63
+        recall: 0.53
+      timestamp: '2025-08-22 14:31:26'
+  SVM:
+  - v1:
+      file: models/SVM.pkl
+      metrics:
+        accuracy: 0.8
+        f1: 0.56
+        precision: 0.64
+        recall: 0.5
+      timestamp: '2025-08-17 21:21:37'
+  - v2:
+      file: models/SVM.pkl
+      metrics:
+        accuracy: 0.8
+        f1: 0.56
+        precision: 0.64
+        recall: 0.5
+      timestamp: '2025-08-22 13:35:26'
+  - v3:
+      file: models/SVM.pkl
+      metrics:
+        accuracy: 0.8
+        f1: 0.56
+        precision: 0.64
+        recall: 0.5
+      timestamp: '2025-08-22 13:37:28'
+  - v4:
+      file: models/SVM.pkl
+      metrics:
+        accuracy: 0.8
+        f1: 0.56
+        precision: 0.64
+        recall: 0.5
+      timestamp: '2025-08-22 13:38:46'
+  - v5:
+      file: models/SVM.pkl
+      metrics:
+        accuracy: 0.8
+        f1: 0.56
+        precision: 0.64
+        recall: 0.5
+      timestamp: '2025-08-22 13:41:43'
+  - v6:
+      file: models/SVM.pkl
+      metrics:
+        accuracy: 0.8
+        f1: 0.56
+        precision: 0.64
+        recall: 0.5
+      timestamp: '2025-08-22 13:42:06'
+  - v7:
+      file: models/SVM.pkl
+      metrics:
+        accuracy: 0.8
+        f1: 0.56
+        precision: 0.64
+        recall: 0.5
+      timestamp: '2025-08-22 13:45:48'
+  - v8:
+      file: models/SVM.pkl
+      metrics:
+        accuracy: 0.8
+        f1: 0.56
+        precision: 0.64
+        recall: 0.5
+      timestamp: '2025-08-22 14:18:03'
+  - v9:
+      file: models/SVM.pkl
+      metrics:
+        accuracy: 0.8
+        f1: 0.56
+        precision: 0.64
+        recall: 0.5
+      timestamp: '2025-08-22 14:20:17'
+  - v10:
+      file: models/SVM.pkl
+      metrics:
+        accuracy: 0.8
+        f1: 0.56
+        precision: 0.64
+        recall: 0.5
+      timestamp: '2025-08-22 14:22:41'
+  - v11:
+      file: models/SVM.pkl
+      metrics:
+        accuracy: 0.8
+        f1: 0.56
+        precision: 0.64
+        recall: 0.5
+      timestamp: '2025-08-22 14:25:14'
+  - v12:
+      file: models/SVM.pkl
+      metrics:
+        accuracy: 0.8
+        f1: 0.56
+        precision: 0.64
+        recall: 0.5
+      timestamp: '2025-08-22 14:31:33'
+  XGBoost:
+  - v1:
+      file: models/XGBoost.pkl
+      metrics:
+        accuracy: 0.8
+        f1: 0.58
+        precision: 0.61
+        recall: 0.56
+      timestamp: '2025-08-17 21:21:39'
+  - v2:
+      file: models/XGBoost.pkl
+      metrics:
+        accuracy: 0.8
+        f1: 0.58
+        precision: 0.61
+        recall: 0.55
+      timestamp: '2025-08-22 13:35:27'
+  - v3:
+      file: models/XGBoost.pkl
+      metrics:
+        accuracy: 0.8
+        f1: 0.58
+        precision: 0.61
+        recall: 0.55
+      timestamp: '2025-08-22 13:37:29'
+  - v4:
+      file: models/XGBoost.pkl
+      metrics:
+        accuracy: 0.8
+        f1: 0.58
+        precision: 0.61
+        recall: 0.55
+      timestamp: '2025-08-22 13:38:47'
+  - v5:
+      file: models/XGBoost.pkl
+      metrics:
+        accuracy: 0.8
+        f1: 0.58
+        precision: 0.61
+        recall: 0.55
+      timestamp: '2025-08-22 13:41:43'
+  - v6:
+      file: models/XGBoost.pkl
+      metrics:
+        accuracy: 0.8
+        f1: 0.58
+        precision: 0.61
+        recall: 0.55
+      timestamp: '2025-08-22 13:42:07'
+  - v7:
+      file: models/XGBoost.pkl
+      metrics:
+        accuracy: 0.8
+        f1: 0.58
+        precision: 0.61
+        recall: 0.55
+      timestamp: '2025-08-22 13:45:48'
+  - v8:
+      file: models/XGBoost.pkl
+      metrics:
+        accuracy: 0.8
+        f1: 0.58
+        precision: 0.61
+        recall: 0.55
+      timestamp: '2025-08-22 14:18:04'
+  - v9:
+      file: models/XGBoost.pkl
+      metrics:
+        accuracy: 0.8
+        f1: 0.58
+        precision: 0.61
+        recall: 0.55
+      timestamp: '2025-08-22 14:20:18'
+  - v10:
+      file: models/XGBoost.pkl
+      metrics:
+        accuracy: 0.8
+        f1: 0.58
+        precision: 0.61
+        recall: 0.55
+      timestamp: '2025-08-22 14:22:41'
+  - v11:
+      file: models/XGBoost.pkl
+      metrics:
+        accuracy: 0.8
+        f1: 0.58
+        precision: 0.61
+        recall: 0.55
+      timestamp: '2025-08-22 14:25:14'
+  - v12:
+      file: models/XGBoost.pkl
+      metrics:
+        accuracy: 0.8
+        f1: 0.58
+        precision: 0.61
+        recall: 0.55
+      timestamp: '2025-08-22 14:31:34'
