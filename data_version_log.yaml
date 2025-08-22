@@ -1,0 +1,299 @@
+versions:
+  master_combined_raw_data.csv:
+  - v1:
+      file: data/raw/combined/master_combined_raw_data.csv
+      source: static data, live data
+      timestamp: '2025-08-17 19:15:38'
+      changelog: updated master_data with live data.
+  - v2:
+      file: data/raw/combined/master_combined_raw_data.csv
+      source: static data, live data
+      timestamp: '2025-08-17 19:18:05'
+      changelog: updated master_data with live data.
+  - v3:
+      file: data/raw/combined/master_combined_raw_data.csv
+      source: static data, live data
+      timestamp: '2025-08-17 19:19:16'
+      changelog: updated master_data with live data.
+  - v4:
+      file: data/raw/combined/master_combined_raw_data.csv
+      source: static data, live data
+      timestamp: '2025-08-17 20:35:23'
+      changelog: updated master_data with live data.
+  - v5:
+      file: data/raw/combined/master_combined_raw_data.csv
+      source: static data, live data
+      timestamp: '2025-08-17 20:36:30'
+      changelog: updated master_data with live data.
+  - v6:
+      file: data/raw/combined/master_combined_raw_data.csv
+      source: static data, live data
+      timestamp: '2025-08-17 20:38:46'
+      changelog: updated master_data with live data.
+  - v7:
+      file: data/raw/combined/master_combined_raw_data.csv
+      source: static data, live data
+      timestamp: '2025-08-17 20:41:14'
+      changelog: updated master_data with live data.
+  - v8:
+      file: data/raw/combined/master_combined_raw_data.csv
+      source: static data, live data
+      timestamp: '2025-08-17 20:44:06'
+      changelog: updated master_data with live data.
+  - v9:
+      file: data/raw/combined/master_combined_raw_data.csv
+      source: static data, live data
+      timestamp: '2025-08-17 20:45:59'
+      changelog: updated master_data with live data.
+  - v10:
+      file: data/raw/combined/master_combined_raw_data.csv
+      source: static data, live data
+      timestamp: '2025-08-17 20:47:39'
+      changelog: updated master_data with live data.
+  - v11:
+      file: data/raw/combined/master_combined_raw_data.csv
+      source: static data, live data
+      timestamp: '2025-08-17 21:02:39'
+      changelog: updated master_data with live data.
+  - v12:
+      file: data/raw/combined/master_combined_raw_data.csv
+      source: static data, live data
+      timestamp: '2025-08-17 21:09:49'
+      changelog: updated master_data with live data.
+  - v13:
+      file: data/raw/combined/master_combined_raw_data.csv
+      source: static data, live data
+      timestamp: '2025-08-17 21:12:32'
+      changelog: updated master_data with live data.
+  - v14:
+      file: data/raw/combined/master_combined_raw_data.csv
+      source: static data, live data
+      timestamp: '2025-08-17 21:16:08'
+      changelog: updated master_data with live data.
+  - v15:
+      file: data/raw/combined/master_combined_raw_data.csv
+      source: static data, live data
+      timestamp: '2025-08-17 21:20:56'
+      changelog: updated master_data with static and live data.
+  transformed_data.csv:
+  - v1:
+      file: data/transformed/transformed_data.csv
+      source: master_data
+      timestamp: '2025-08-17 19:18:44'
+      changelog: applied transformations on master data.
+  - v2:
+      file: data/transformed/transformed_data.csv
+      source: master raw data
+      timestamp: '2025-08-17 19:19:56'
+      changelog: applied transformations on master data.
+  - v3:
+      file: data/transformed/transformed_data.csv
+      source: master raw data
+      timestamp: '2025-08-17 20:36:04'
+      changelog: applied transformations on master data.
+  - v4:
+      file: data/transformed/transformed_data.csv
+      source: master raw data
+      timestamp: '2025-08-17 20:37:09'
+      changelog: applied transformations on master data.
+  - v5:
+      file: data/transformed/transformed_data.csv
+      source: master raw data
+      timestamp: '2025-08-17 20:39:26'
+      changelog: applied transformations on master data.
+  - v6:
+      file: data/transformed/transformed_data.csv
+      source: master raw data
+      timestamp: '2025-08-17 20:41:55'
+      changelog: applied transformations on master data.
+  - v7:
+      file: data/transformed/transformed_data.csv
+      source: master raw data
+      timestamp: '2025-08-17 20:44:44'
+      changelog: applied transformations on master data.
+  - v8:
+      file: data/transformed/transformed_data.csv
+      source: master raw data
+      timestamp: '2025-08-17 20:46:38'
+      changelog: applied transformations on master data.
+  - v9:
+      file: data/transformed/transformed_data.csv
+      source: master raw data
+      timestamp: '2025-08-17 20:48:21'
+      changelog: applied transformations on master data.
+  - v10:
+      file: data/transformed/transformed_data.csv
+      source: master raw data
+      timestamp: '2025-08-17 21:03:19'
+      changelog: applied transformations on master data.
+  - v11:
+      file: data/transformed/transformed_data.csv
+      source: master raw data
+      timestamp: '2025-08-17 21:10:28'
+      changelog: applied transformations on master data.
+  - v12:
+      file: data/transformed/transformed_data.csv
+      source: master raw data
+      timestamp: '2025-08-17 21:13:11'
+      changelog: applied transformations on master data.
+  - v13:
+      file: data/transformed/transformed_data.csv
+      source: master raw data
+      timestamp: '2025-08-17 21:16:47'
+      changelog: applied transformations on master data.
+  - v14:
+      file: data/transformed/transformed_data.csv
+      source: master raw data
+      timestamp: '2025-08-17 21:21:33'
+      changelog: applied transformations on master data.
+  - v15:
+      file: data/transformed/transformed_data.csv
+      source: master raw data
+      timestamp: '2025-08-22 13:30:52'
+      changelog: applied transformations on master data.
+  - v16:
+      file: data/transformed/transformed_data.csv
+      source: master raw data
+      timestamp: '2025-08-22 13:33:46'
+      changelog: applied transformations on master data.
+  - v17:
+      file: data/transformed/transformed_data.csv
+      source: master raw data
+      timestamp: '2025-08-22 13:41:34'
+      changelog: applied transformations on master data.
+  - v18:
+      file: data/transformed/transformed_data.csv
+      source: master raw data
+      timestamp: '2025-08-22 14:17:54'
+      changelog: applied transformations on master data.
+  - v19:
+      file: data/transformed/transformed_data.csv
+      source: master raw data
+      timestamp: '2025-08-22 14:20:08'
+      changelog: applied transformations on master data.
+  - v20:
+      file: data/transformed/transformed_data.csv
+      source: master raw data
+      timestamp: '2025-08-22 14:22:32'
+      changelog: applied transformations on master data.
+  - v21:
+      file: data/transformed/transformed_data.csv
+      source: master raw data
+      timestamp: '2025-08-22 14:25:05'
+      changelog: applied transformations on master data.
+  - v22:
+      file: data/transformed/transformed_data.csv
+      source: master raw data
+      timestamp: '2025-08-22 14:31:22'
+      changelog: applied transformations on master data.
+  customer_churn.db:
+  - v1:
+      file: data/transformed/customer_churn.db
+      source: master_data
+      timestamp: '2025-08-17 19:18:44'
+      changelog: applied transformations on master data.
+  - v2:
+      file: data/transformed/customer_churn.db
+      source: master raw data
+      timestamp: '2025-08-17 19:19:56'
+      changelog: applied transformations on master data.
+  - v3:
+      file: data/transformed/customer_churn.db
+      source: master raw data
+      timestamp: '2025-08-17 20:36:04'
+      changelog: applied transformations on master data.
+  - v4:
+      file: data/transformed/customer_churn.db
+      source: master raw data
+      timestamp: '2025-08-17 20:37:09'
+      changelog: applied transformations on master data.
+  - v5:
+      file: data/transformed/customer_churn.db
+      source: master raw data
+      timestamp: '2025-08-17 20:39:26'
+      changelog: applied transformations on master data.
+  - v6:
+      file: data/transformed/customer_churn.db
+      source: master raw data
+      timestamp: '2025-08-17 20:41:55'
+      changelog: applied transformations on master data.
+  - v7:
+      file: data/transformed/customer_churn.db
+      source: master raw data
+      timestamp: '2025-08-17 20:44:44'
+      changelog: applied transformations on master data.
+  - v8:
+      file: data/transformed/customer_churn.db
+      source: master raw data
+      timestamp: '2025-08-17 20:46:38'
+      changelog: applied transformations on master data.
+  - v9:
+      file: data/transformed/customer_churn.db
+      source: master raw data
+      timestamp: '2025-08-17 20:48:21'
+      changelog: applied transformations on master data.
+  - v10:
+      file: data/transformed/customer_churn.db
+      source: master raw data
+      timestamp: '2025-08-17 21:03:19'
+      changelog: applied transformations on master data.
+  - v11:
+      file: data/transformed/customer_churn.db
+      source: master raw data
+      timestamp: '2025-08-17 21:10:29'
+      changelog: applied transformations on master data.
+  - v12:
+      file: data/transformed/customer_churn.db
+      source: master raw data
+      timestamp: '2025-08-17 21:13:11'
+      changelog: applied transformations on master data.
+  - v13:
+      file: data/transformed/customer_churn.db
+      source: master raw data
+      timestamp: '2025-08-17 21:16:48'
+      changelog: applied transformations on master data.
+  - v14:
+      file: data/transformed/customer_churn.db
+      source: master raw data
+      timestamp: '2025-08-17 21:21:33'
+      changelog: applied transformations on master data.
+  - v15:
+      file: data/transformed/customer_churn.db
+      source: master raw data
+      timestamp: '2025-08-22 13:30:52'
+      changelog: applied transformations on master data.
+  - v16:
+      file: data/transformed/customer_churn.db
+      source: master raw data
+      timestamp: '2025-08-22 13:33:46'
+      changelog: applied transformations on master data.
+  - v17:
+      file: data/transformed/customer_churn.db
+      source: master raw data
+      timestamp: '2025-08-22 13:41:34'
+      changelog: applied transformations on master data.
+  - v18:
+      file: data/transformed/customer_churn.db
+      source: master raw data
+      timestamp: '2025-08-22 14:17:54'
+      changelog: applied transformations on master data.
+  - v19:
+      file: data/transformed/customer_churn.db
+      source: master raw data
+      timestamp: '2025-08-22 14:20:08'
+      changelog: applied transformations on master data.
+  - v20:
+      file: data/transformed/customer_churn.db
+      source: master raw data
+      timestamp: '2025-08-22 14:22:33'
+      changelog: applied transformations on master data.
+  - v21:
+      file: data/transformed/customer_churn.db
+      source: master raw data
+      timestamp: '2025-08-22 14:25:05'
+      changelog: applied transformations on master data.
+  - v22:
+      file: data/transformed/customer_churn.db
+      source: master raw data
+      timestamp: '2025-08-22 14:31:22'
+      changelog: applied transformations on master data.

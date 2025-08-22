@@ -1,0 +1,151 @@
+features:
+  - name: customerID
+    description: "Unique identifier for each customer"
+    type: string
+    source: "Raw dataset"
+    transformation: "Directly from dataset"
+
+  - name: gender
+    description: "Gender of the customer (Male/Female)"
+    type: categorical
+    source: "Raw dataset"
+    transformation: "Directly from dataset"
+
+  - name: SeniorCitizen
+    description: "Indicates if the customer is a senior citizen (0 = No, 1 = Yes)"
+    type: binary
+    source: "Raw dataset"
+    transformation: "Directly from dataset"
+
+  - name: Partner
+    description: "Indicates if the customer has a partner"
+    type: binary
+    source: "Raw dataset"
+    transformation: "Directly from dataset"
+
+  - name: Dependents
+    description: "Indicates if the customer has dependents"
+    type: binary
+    source: "Raw dataset"
+    transformation: "Directly from dataset"
+
+  - name: tenure
+    description: "Number of months the customer has stayed with the company"
+    type: numeric
+    source: "Raw dataset"
+    transformation: "Directly from dataset"
+
+  - name: PhoneService
+    description: "Whether the customer has phone service"
+    type: binary
+    source: "Raw dataset"
+    transformation: "Directly from dataset"
+
+  - name: MultipleLines
+    description: "Whether the customer has multiple phone lines"
+    type: categorical
+    source: "Raw dataset"
+    transformation: "Directly from dataset"
+
+  - name: InternetService
+    description: "Type of internet service (DSL/Fiber optic/None)"
+    type: categorical
+    source: "Raw dataset"
+    transformation: "Directly from dataset"
+
+  - name: OnlineSecurity
+    description: "Whether the customer has online security service"
+    type: categorical
+    source: "Raw dataset"
+    transformation: "Directly from dataset"
+
+  - name: OnlineBackup
+    description: "Whether the customer has online backup service"
+    type: categorical
+    source: "Raw dataset"
+    transformation: "Directly from dataset"
+
+  - name: DeviceProtection
+    description: "Whether the customer has device protection service"
+    type: categorical
+    source: "Raw dataset"
+    transformation: "Directly from dataset"
+
+  - name: TechSupport
+    description: "Whether the customer has tech support service"
+    type: categorical
+    source: "Raw dataset"
+    transformation: "Directly from dataset"
+
+  - name: StreamingTV
+    description: "Whether the customer has streaming TV service"
+    type: categorical
+    source: "Raw dataset"
+    transformation: "Directly from dataset"
+
+  - name: StreamingMovies
+    description: "Whether the customer has streaming movies service"
+    type: categorical
+    source: "Raw dataset"
+    transformation: "Directly from dataset"
+
+  - name: Contract
+    description: "Customer's contract type (Month-to-month/One year/Two year)"
+    type: categorical
+    source: "Raw dataset"
+    transformation: "Directly from dataset"
+
+  - name: PaperlessBilling
+    description: "Whether the customer uses paperless billing"
+    type: binary
+    source: "Raw dataset"
+    transformation: "Directly from dataset"
+
+  - name: PaymentMethod
+    description: "Payment method used by the customer"
+    type: categorical
+    source: "Raw dataset"
+    transformation: "Directly from dataset"
+
+  - name: MonthlyCharges
+    description: "The amount charged to the customer monthly"
+    type: numeric
+    source: "Raw dataset"
+    transformation: "Directly from dataset"
+
+  - name: TotalCharges
+    description: "Total amount charged to the customer"
+    type: numeric
+    source: "Raw dataset"
+    transformation: "Directly from dataset"
+
+  - name: Churn
+    description: "Indicates whether the customer left the service (Yes/No)"
+    type: binary
+    source: "Raw dataset"
+    transformation: "Directly from dataset"
+
+  # Engineered Features
+  - name: AverageMonthlySpend
+    description: "Average spend per month (TotalCharges / tenure)"
+    type: numeric
+    source: "Engineered from MonthlyCharges & TotalCharges"
+    transformation: "TotalCharges / tenure"
+
+  - name: TenureGroup
+    description: "Binned customer tenure into groups (e.g., 0-12, 13-24 months)"
+    type: categorical
+    source: "Engineered from tenure"
+    transformation: "Bin tenure into ranges"
+
+  - name: ServicesCount
+    description: "Total number of services subscribed by the customer"
+    type: numeric
+    source: "Engineered from service-related columns"
+    transformation: "Count of active services (Phone, Internet, Streaming, etc.)"
+
+  - name: HasPartnerOrDependents
+    description: "Indicates whether customer has either partner or dependents"
+    type: binary
+    source: "Engineered from Partner + Dependents"
+    transformation: "1 if Partner=Yes or Dependents=Yes, else 0"
