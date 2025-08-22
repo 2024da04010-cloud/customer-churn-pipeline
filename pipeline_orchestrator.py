@@ -3,11 +3,11 @@ import os
 import sys
 
 # Import the actual run functions from each module
-from src.ingestion.ingest_data import run as ingest_data_run
-from src.preparation.prepare_data import run as prepare_data_run
-from src.validation.validate_data import run as validate_data_run
-from src.transformation_and_storage.transform_and_store_data import run as transform_and_store_data_run
-from src.model_building.model_building import run as model_building_run
+from src.ingestion.ingest_data import main  as ingest_data_run
+from src.preparation.prepare_data import main  as prepare_data_run
+from src.validation.validate_data import main  as validate_data_run
+from src.transformation_and_storage.transform_and_store_data import main as transform_and_store_data_run
+from src.model_building.model_building import main  as model_building_run
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
